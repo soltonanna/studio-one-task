@@ -6,3 +6,50 @@ RUN the frontend in terminal ===>
 
 
 
+******* DESCRIPTION OF TASK ******
+**********************************
+
+Implement an application that can display the following pages:
+    / - home
+    /login - log in and password entry page
+    /news - news page (any information of the same type)
+    /profile - a page with free text, unavailable without authorization
+
+
+On the site, in the header or footer, implement the links:
+    To the main (/)
+    News (/news)
+    Profile (/profile)
+
+
+If the user clicks on the “profile” page and he is not “authorized” - throw on the / login page
+The login form (/login) accepts fake data:
+    username: admin
+    password: 12345
+
+If other data is entered, the following messages are displayed:
+"The username or password you entered is incorrect".
+
+If the correct data is entered, then redirect to the /profile page.
+
+User authorization information can be stored in localStorage, with a simple true/false parameter and generated fake token.
+
+The database can be implemented on the front side via fake JSON data, and it should accept HTTP methods ( GET, POST, PUT, DELETE ).
+
+News (/news) page should contain the listing of sample news taken from JSON file. Each news should consist of an image, title, description, and next Fibonacci number near the title, where there should be a check if the Fibonacci number of news article is a Prime Number, and should have a frontend search with filtering.
+
+● Lazy load images and components to improve initial page load times.
+● If there are a large number of news articles, implement infinite scroll to display a limited number of articles per page for better performance.
+
+You should add a news button that will open a popup. User should be able to add fields in the modal and post that data to your mock database.
+
+The user should be able to delete any post on the news page ( It should also be deleted from the mock database )
+
+● Integrate Redux middleware such as Thunk or Saga to handle asynchronous actions, like API calls for user authentication and news data.
+
+● Route-Based Code Splitting:
+Use code splitting to split the application code based on routes.
+
+Everything you need, throw through Redux.
+
+You can use any UI library. Would be a big plus if you use Typescript.
