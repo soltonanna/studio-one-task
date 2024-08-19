@@ -1,13 +1,137 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  margin: 0; 
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  width: 1600px;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.main-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  min-height: 100vh;
+}
+
+/* Header & Footer sections */
+header {
+  background-color: #02004e;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 3rem;
+  background-color: transparent;
+}
+
+header .menu {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+
+header .menu .ant-menu-item {
+  color: #ffa70b;
+}
+
+header .menu .ant-menu-item.ant-menu-item-selected,
+header .menu .ant-menu-item.ant-menu-item-selected:hover,
+header .menu .ant-menu-item:hover {
+  background-color: #ffa70b;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.ant-card-body .ant-btn.ant-btn-primary,
+.ant-btn.ant-btn-primary.logout-button  {
+  margin-left: auto;
+  color: #fff;
+  padding: 1.3rem 2rem;
+  background-color: #ffa70b;
+  border-color: #ffa70b;
+  transition: background-color .2s;
+}
+
+.ant-card-body .ant-btn.ant-btn-primary:hover,
+.ant-btn.ant-btn-primary.logout-button:hover {
+  color: #fff;
+  background-color: #d78900;
+  border-color: #b37300;
+  box-shadow: none;
+  outline: none;
+}
+
+footer .menu {
+  flex: 1; 
+  display: flex;
+  justify-content: center;
+}
+
+footer .copyright {
+  padding: 1rem 0;
+}
+
+footer .menu .ant-menu-item.ant-menu-item-selected {
+  color: #ffa70b;
+}
+
+footer .menu .ant-menu-item.ant-menu-item-selected:after {
+  border-bottom-color: #ffa70b;
+}
+
+/* Pages */
+.single-page {
+  padding: 2rem 1rem;
+}
+
+.single-page h1 {
+  text-align: left;
+  margin: 2rem auto;
+}
+
+
+/* News Page and Items */
+.news-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: auto; 
+  gap: 2rem;
+
+  align-items: start;
+  justify-content: start;
+  align-content: center;
+  justify-items: stretch;
+} 
+
+.news-single-item.ant-card .ant-card-cover img {
+  width: 90%;
+  height: 250px;
+  max-height: 250px;
+  object-fit: cover;
+  margin: 1rem auto;
+  border-radius: 10px;
+}
+
+.ant-card-meta-title span {
+  color: green;
+  font-weight: bold;
+}
+
+.ant-typography.ant-typography-danger {
+  color: #ff4d4f;
+  font-size: 12px;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 1rem;
 }

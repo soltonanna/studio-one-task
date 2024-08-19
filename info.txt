@@ -1,0 +1,8 @@
+RUN the backend in terminal ===>
+    json-server --watch public/news.json --port 5000
+
+RUN the frontend in terminal ===>
+    npm start    
+
+
+

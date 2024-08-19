@@ -1,0 +1,158 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "title": "News Item 1",
+      "description": "Description for news item 1",
+      "image": "https://media.istockphoto.com/id/1369150014/vector/breaking-news-with-world-map-background-vector.jpg?s=612x612&w=0&k=20&c=9pR2-nDBhb7cOvvZU_VdgkMmPJXrBQ4rB1AkTXxRIKM=",
+      "fibonacci": 5
+    },
+    {
+      "id": "2",
+      "title": "News Item 2",
+      "description": "Description for news item 2",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/BBC_News_2022_%28Alt%2C_boxed%29.svg/1200px-BBC_News_2022_%28Alt%2C_boxed%29.svg.png",
+      "fibonacci": 8
+    },
+    {
+      "id": "3",
+      "title": "News Item 3",
+      "description": "Description for news item 3",
+      "image": "https://about.fb.com/wp-content/uploads/2023/09/GettyImages-686732223.jpg",
+      "fibonacci": 13
+    },
+    {
+      "id": "4",
+      "title": "News Item 4",
+      "description": "Description for news item 4",
+      "image": "https://piper.asu.edu/sites/default/files/depositphotos_2605601-stock-photo-latest-news.jpeg",
+      "fibonacci": 21
+    },
+    {
+      "id": "5",
+      "title": "News Item 5",
+      "description": "Description for news item 5",
+      "image": "https://ichef.bbci.co.uk/images/ic/1200x675/p0fj0528.jpg",
+      "fibonacci": 34
+    },
+    {
+      "id": "6",
+      "title": "News Item 6",
+      "description": "Description for news item 6",
+      "image": "",
+      "fibonacci": 55
+    },
+    {
+      "id": "7",
+      "title": "News Item 7",
+      "description": "Description for news item 7",
+      "image": "",
+      "fibonacci": 89
+    },
+    {
+      "id": "8",
+      "title": "News Item 8",
+      "description": "Description for news item 8",
+      "image": "",
+      "fibonacci": 144
+    },
+    {
+      "id": "9",
+      "title": "News Item 9",
+      "description": "Description for news item 9",
+      "image": "",
+      "fibonacci": 233
+    },
+    {
+      "id": "10",
+      "title": "News Item 10",
+      "description": "Description for news item 10",
+      "image": "",
+      "fibonacci": 377
+    },
+    {
+      "id": "11",
+      "title": "News Item 11",
+      "description": "Description for news item 11",
+      "image": "",
+      "fibonacci": 610
+    },
+    {
+      "id": "12",
+      "title": "News Item 12",
+      "description": "Description for news item 12",
+      "image": "",
+      "fibonacci": 987
+    },
+    {
+      "id": "14",
+      "title": "News Item 14",
+      "description": "Description for news item 14",
+      "image": "",
+      "fibonacci": 2584
+    },
+    {
+      "id": "15",
+      "title": "News Item 15",
+      "description": "Description for news item 15",
+      "image": "",
+      "fibonacci": 4181
+    },
+    {
+      "id": "16",
+      "title": "News Item 16",
+      "description": "Description for news item 16",
+      "image": "",
+      "fibonacci": 6765
+    },
+    {
+      "id": "17",
+      "title": "News Item 17",
+      "description": "Description for news item 17",
+      "image": "",
+      "fibonacci": 10946
+    },
+    {
+      "id": "18",
+      "title": "News Item 18",
+      "description": "Description for news item 18",
+      "image": "",
+      "fibonacci": 17711
+    },
+    {
+      "id": "19",
+      "title": "News Item 19",
+      "description": "Description for news item 19",
+      "image": "",
+      "fibonacci": 28657
+    },
+    {
+      "id": "20",
+      "title": "News Item 20",
+      "description": "Description for news item 20",
+      "image": "",
+      "fibonacci": 46368
+    },
+    {
+      "id": "21",
+      "title": "News Item 21",
+      "description": "Description for news item 21",
+      "image": "",
+      "fibonacci": 75025
+    },
+    {
+      "id": "22",
+      "title": "News Item 22",
+      "description": "Description for news item 22",
+      "image": "",
+      "fibonacci": 121393
+    },
+    {
+      "id": "7adb",
+      "title": "zczxczxc",
+      "description": "zxczxczxc",
+      "image": "",
+      "fibonacci": 0
+    }
+  ]
+}
