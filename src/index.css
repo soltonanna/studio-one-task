@@ -52,16 +52,21 @@ header .menu .ant-menu-item:hover {
   border-radius: 5px;
 }
 
+
+.ant-btn.ant-btn-primary.logout-button  {
+  padding: 1.3rem 2rem;
+}
+.single-page .ant-btn.ant-btn-primary,
 .ant-card-body .ant-btn.ant-btn-primary,
 .ant-btn.ant-btn-primary.logout-button  {
   margin-left: auto;
   color: #fff;
-  padding: 1.3rem 2rem;
   background-color: #ffa70b;
   border-color: #ffa70b;
   transition: background-color .2s;
 }
 
+.single-page .ant-btn.ant-btn-primary:hover,
 .ant-card-body .ant-btn.ant-btn-primary:hover,
 .ant-btn.ant-btn-primary.logout-button:hover {
   color: #fff;
