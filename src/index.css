@@ -104,6 +104,18 @@ footer .menu .ant-menu-item.ant-menu-item-selected:after {
   margin: 2rem auto;
 }
 
+.single-page p {
+  text-align: left;
+  margin-bottom: 1.5rem;
+  font-size: 18px;
+}
+
+.single-page p img {
+  max-width: 400px;
+  border-radius: 2rem;
+
+}
+
 
 /* News Page and Items */
 .news-list {
