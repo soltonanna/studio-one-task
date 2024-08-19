@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[916],{7916:(e,l,s)=>{s.r(l),s.d(l,{default:()=>t});s(5043);var a=s(3003),i=s(3216),c=s(6721),p=s(579);const{Title:r}=c.A,t=()=>(0,a.d4)((e=>e.auth.isAuthenticated))?(0,p.jsxs)("div",{className:"single-page profile",children:[(0,p.jsx)(r,{level:1,children:"Profile Page"}),(0,p.jsx)("h3",{children:"Welcome to your profile!"})]}):(0,p.jsx)(i.C5,{to:"/login",replace:!0})}}]);
+//# sourceMappingURL=916.dd1e8133.chunk.js.map
